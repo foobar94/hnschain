@@ -1,0 +1,35 @@
+.box {
+	border: 2px solid rgb(51,122,183);
+	margin: 5px;
+}
+
+.blockNumber {
+	background-color: rbg(51,122,183);
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.blockNumberTitle {
+	background-color: rgb(51,122,183);
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+
+.col-xs-6 {
+	width: 50%;
+}
+
+.container {
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+h1 {
+	text-align: center;
+}
+
+li {
+	height: 100px;
+}

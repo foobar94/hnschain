@@ -1,6 +1,6 @@
 const {NodeClient, WalletClient} = require('hs-client');
 var mongoose = require('mongoose');
-var connection = mongoose.createConnection('mongodb://admin:no@ds133762.mlab.com:33262/hnschain-test', { useNewUrlParser: true });
+var connection = mongoose.createConnection('mongodb://admin:na@ds133762.mlab.com:33262/hnschain-test', { useNewUrlParser: true });
 var BlockSchema = require('../models/block');
 var lastBlockHeight = {height: 0};
 

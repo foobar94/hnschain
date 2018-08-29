@@ -3,14 +3,13 @@ import BlockListItem from './block_list_item'
 
 const BlockList = (props) => {
 	const blockItems = props.blocks.map((block) => {
-		console.log(block);
 		return (
 			<BlockListItem block={block} key={block.hash} />
 		);
 	});
 
 	return (
-		<ul className="fun"> {blockItems} </ul>
+		<ul className="col-md-6 list-group"> {blockItems} </ul>
 	);
 };
 
